@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App & Joke Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <!-- Quiz App -->
+  <div class="container">
+    <h2>Quiz App</h2>
+    <form id="quizForm">
+      <p>What does HTML stand for?</p>
+      <div class="quiz-option">
+        <input type="radio" name="q1" value="0"> Hyper Trainer Marking Language <br>
+        <input type="radio" name="q1" value="1"> Hyper Text Markup Language <br>
+        <input type="radio" name="q1" value="0"> Hyper Text Marketing Language <br>
+        <input type="radio" name="q1" value="0"> Hyper Tool Markup Language <br>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="result"></p>
+  </div>
+
+  <!-- Joke Generator -->
+  <div class="container">
+    <h2>Random Joke Generator</h2>
+    <p id="joke">Click the button to get a joke!</p>
+    <button id="jokeBtn">Get Random Joke</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
